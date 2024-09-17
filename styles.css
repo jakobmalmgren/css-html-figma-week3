@@ -36,6 +36,7 @@ main {
   height: 100%;
 }
 .section-ranking {
+  margin-left: 0.6rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -79,9 +80,10 @@ main {
   justify-content: space-around;
 }
 .section-name {
+  margin-left: 0.7rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 .img {
@@ -97,9 +99,10 @@ main {
   justify-content: center;
 }
 .section-class {
+  margin-left: 1.2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 .scoreboard-right {
@@ -108,13 +111,23 @@ main {
   display: flex;
   justify-content: space-around;
 }
+.gold {
+}
+.silver {
+}
+.bronse {
+  margin-right: 0.7rem;
+}
+.total {
+  margin-right: 0.8rem;
+}
 .gold,
 .silver,
 .bronse,
 .total {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 
